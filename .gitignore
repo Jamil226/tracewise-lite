@@ -73,3 +73,22 @@ build/
 # AFL++
 *.crash
 findings/
+
+# LaTeX build artifacts
+/latex/*.aux
+/latex/*.bbl
+/latex/*.bcf
+/latex/*.blg
+/latex/*.fdb_latexmk
+/latex/*.fls
+/latex/*.lof
+/latex/*.log
+/latex/*.lot
+/latex/*.nav
+/latex/*.run.xml
+/latex/*.snm
+/latex/*.synctex.gz
+/latex/*.toc
+/latex/*.vrb
+/latex/*.xdv
+/latex/paper.pdf
