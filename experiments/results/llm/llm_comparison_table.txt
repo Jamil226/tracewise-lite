@@ -1,0 +1,15 @@
+==========================================================================================
+LLM MODEL COMPARISON FOR VULNERABILITY ANALYSIS
+==========================================================================================
+
+Model                CWE Acc    Class Acc    Halluc. Rate   RC Score   Latency(ms)   Consistency 
+------------------------------------------------------------------------------------------
+deepseek-coder       0.100      0.100        0.000          0.000      0.9           1.000       
+phi                  0.100      0.100        0.000          0.000      0.9           1.000       
+qwen2.5-coder        0.100      0.100        0.000          0.000      1.0           1.000       
+tinyllama            0.100      0.100        0.000          0.000      1.0           1.000       
+------------------------------------------------------------------------------------------
+CWE Acc = Top-1 CWE prediction accuracy
+Class Acc = Vulnerability class prediction accuracy
+Halluc. Rate = Fraction of outputs with detected hallucinations
+RC Score = Root cause explanation keyword completeness

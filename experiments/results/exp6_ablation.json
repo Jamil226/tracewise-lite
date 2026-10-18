@@ -1,0 +1,42 @@
+[
+  {
+    "configuration": "Full system",
+    "semantic_score": 0.57,
+    "node_reduction": 0.5,
+    "edge_reduction": 0.6666666666666667,
+    "crash_present": true,
+    "taint_preserved": 0.0
+  },
+  {
+    "configuration": "w/o taint reduction",
+    "semantic_score": 0.57,
+    "node_reduction": 0.5,
+    "edge_reduction": 0.6666666666666667,
+    "crash_present": true,
+    "taint_preserved": 0.0
+  },
+  {
+    "configuration": "w/o crash preservation",
+    "semantic_score": 0.57,
+    "node_reduction": 0.5,
+    "edge_reduction": 0.6666666666666667,
+    "crash_present": true,
+    "taint_preserved": 0.0
+  },
+  {
+    "configuration": "w/o event clustering",
+    "semantic_score": 0.57,
+    "node_reduction": 0.5,
+    "edge_reduction": 0.6666666666666667,
+    "crash_present": true,
+    "taint_preserved": 0.0
+  },
+  {
+    "configuration": "w/o path abstraction",
+    "semantic_score": 0.6,
+    "node_reduction": 0.16666666666666663,
+    "edge_reduction": 0.16666666666666663,
+    "crash_present": true,
+    "taint_preserved": 0.0
+  }
+]

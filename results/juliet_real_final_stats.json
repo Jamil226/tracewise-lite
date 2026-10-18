@@ -1,0 +1,60 @@
+{
+  "overall": {
+    "mean_accuracy": 0.1149,
+    "std_accuracy": 0.0293,
+    "n_runs": 3,
+    "n_binaries": 58
+  },
+  "latency": {
+    "mean_s": 23.33,
+    "std_s": 6.89,
+    "p95_s": 31.34
+  },
+  "compression": {
+    "mean_ratio": 0.0,
+    "std_ratio": 0.0
+  },
+  "prediction_distribution": {
+    "CWE-476": 58,
+    "CWE-121": 34,
+    "CWE-190": 13,
+    "CWE-327": 1
+  },
+  "per_cwe": {
+    "CWE-121": {
+      "n": 30,
+      "accuracy": 0.167,
+      "std": 0.373
+    },
+    "CWE-122": {
+      "n": 30,
+      "accuracy": 0.0,
+      "std": 0.0
+    },
+    "CWE-134": {
+      "n": 24,
+      "accuracy": 0.0,
+      "std": 0.0
+    },
+    "CWE-190": {
+      "n": 30,
+      "accuracy": 0.1,
+      "std": 0.3
+    },
+    "CWE-416": {
+      "n": 21,
+      "accuracy": 0.0,
+      "std": 0.0
+    },
+    "CWE-476": {
+      "n": 27,
+      "accuracy": 0.444,
+      "std": 0.497
+    },
+    "CWE-78": {
+      "n": 12,
+      "accuracy": 0.0,
+      "std": 0.0
+    }
+  }
+}

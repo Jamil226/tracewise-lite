@@ -1,0 +1,25 @@
+======================================================================
+TRACEWISE-Lite Experiment Summary
+======================================================================
+Version: 1.0.0
+Timestamp: 2026-05-27T07:59:15.189206
+
+Timing:
+  semantic_preservation: 0.0s
+  benchmarks: 0.3s
+  llm_validation: 0.1s
+  baseline: 0.0s
+  performance: 0.1s
+  ablation: 0.0s
+  TOTAL: 0.5s
+
+Key Results:
+  Avg semantic preservation: 0.562
+  Juliet CWE accuracy: 66.67%
+  LAVA-M detection rate: 100.00%
+  tinyllama CWE acc: 10.00%, hallucination: 0.00%
+  phi CWE acc: 10.00%, hallucination: 0.00%
+  deepseek-coder CWE acc: 10.00%, hallucination: 0.00%
+  qwen2.5-coder CWE acc: 10.00%, hallucination: 0.00%
+
+======================================================================

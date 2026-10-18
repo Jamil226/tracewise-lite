@@ -1,0 +1,8 @@
+Name,Type,Ground_Truth_CWE,Raw_Events,Filtered_Events,Compressed_Tokens,Token_Reduction_Pct,CWE_Detected_Raw,CWE_Detected_Normalized,Correct,Verdict,LLM_Latency_s
+Stack Buffer Overflow,Vulnerable,CWE-121,48879,3,136,99.72,CWE-119,CWE-119,False,❌ FN/Wrong,30.4
+Heap Buffer Overflow,Vulnerable,CWE-122,50336,3,95,99.81,CWE-129,CWE-129,False,❌ FN/Wrong,20.6
+Use After Free,Vulnerable,CWE-416,50283,3,94,99.81,CWE-416,CWE-416,True,✅ TP,17.1
+Format String,Vulnerable,CWE-134,48512,3,136,99.72, CWE-134,CWE-134,True,✅ TP,21.8
+Integer Overflow,Vulnerable,CWE-190,49534,3,137,99.72,129,CWE-129,False,❌ FN/Wrong,23.9
+Safe Copy (Benign),Benign,NONE,51389,3,94,99.82,119,CWE-119,False,❌ FP,15.3
+Safe Malloc/Free (Benign),Benign,NONE,51165,3,96,99.81,CWE-Unknown,CWE-Unknown,True,✅ TN,25.6

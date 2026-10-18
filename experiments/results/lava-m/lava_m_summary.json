@@ -1,0 +1,44 @@
+{
+  "total_bugs": 8,
+  "detection_rate": 1.0,
+  "cwe_accuracy": 1.0,
+  "class_accuracy": 1.0,
+  "avg_confidence": 0.9,
+  "avg_analysis_time": 0.0031155645847320557,
+  "by_program": {
+    "base64": {
+      "detection_rate": 1.0,
+      "cwe_accuracy": 1.0,
+      "count": 2
+    },
+    "md5sum": {
+      "detection_rate": 1.0,
+      "cwe_accuracy": 1.0,
+      "count": 2
+    },
+    "uniq": {
+      "detection_rate": 1.0,
+      "cwe_accuracy": 1.0,
+      "count": 2
+    },
+    "who": {
+      "detection_rate": 1.0,
+      "cwe_accuracy": 1.0,
+      "count": 2
+    }
+  },
+  "by_bug_type": {
+    "buffer_overflow": {
+      "detection_rate": 1.0,
+      "count": 6
+    },
+    "use_after_free": {
+      "detection_rate": 1.0,
+      "count": 1
+    },
+    "format_string": {
+      "detection_rate": 1.0,
+      "count": 1
+    }
+  }
+}

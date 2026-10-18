@@ -1,0 +1,75 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# TRACEWISE-Lite specific
+workspace/
+logs/
+*.pkl
+*.trace
+fuzzing_out/
+traces/
+# results/ (kept tracked for paper evaluation results)
+crashes/
+
+# Compiled binaries
+*.o
+*.obj
+*.exe
+*.out
+buffer_overflow
+use_after_free
+format_string
+integer_overflow
+
+# Test artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# DynamoRIO build artifacts
+build/
+*.so
+*.dll
+*.dylib
+
+# AFL++
+*.crash
+findings/

@@ -1,0 +1,408 @@
+[
+  {
+    "bug_id": "CWE121_CWE121_Stack_Based_Buffer_Overflow__CWE806_wchar_t_alloca_memcpy_01",
+    "ground_truth": "CWE-121",
+    "asan_cwe": null,
+    "dr_instructions": 61019,
+    "events_total": 19
+  },
+  {
+    "bug_id": "CWE121_CWE121_Stack_Based_Buffer_Overflow__CWE806_wchar_t_alloca_ncat_01",
+    "ground_truth": "CWE-121",
+    "asan_cwe": null,
+    "dr_instructions": 61019,
+    "events_total": 19
+  },
+  {
+    "bug_id": "CWE121_CWE121_Stack_Based_Buffer_Overflow__CWE806_wchar_t_declare_ncat_01",
+    "ground_truth": "CWE-121",
+    "asan_cwe": null,
+    "dr_instructions": 61019,
+    "events_total": 19
+  },
+  {
+    "bug_id": "CWE121_CWE121_Stack_Based_Buffer_Overflow__CWE806_wchar_t_declare_memmove_01",
+    "ground_truth": "CWE-121",
+    "asan_cwe": null,
+    "dr_instructions": 61019,
+    "events_total": 19
+  },
+  {
+    "bug_id": "CWE121_CWE121_Stack_Based_Buffer_Overflow__CWE806_wchar_t_declare_ncpy_01",
+    "ground_truth": "CWE-121",
+    "asan_cwe": null,
+    "dr_instructions": 61019,
+    "events_total": 19
+  },
+  {
+    "bug_id": "CWE121_CWE121_Stack_Based_Buffer_Overflow__CWE806_wchar_t_alloca_snprintf_01",
+    "ground_truth": "CWE-121",
+    "asan_cwe": null,
+    "dr_instructions": 61018,
+    "events_total": 19
+  },
+  {
+    "bug_id": "CWE121_CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_snprintf_01",
+    "ground_truth": "CWE-121",
+    "asan_cwe": null,
+    "dr_instructions": 61019,
+    "events_total": 19
+  },
+  {
+    "bug_id": "CWE121_CWE121_Stack_Based_Buffer_Overflow__CWE806_wchar_t_alloca_loop_01",
+    "ground_truth": "CWE-121",
+    "asan_cwe": null,
+    "dr_instructions": 61018,
+    "events_total": 19
+  },
+  {
+    "bug_id": "CWE121_CWE121_Stack_Based_Buffer_Overflow__CWE806_wchar_t_alloca_memmove_01",
+    "ground_truth": "CWE-121",
+    "asan_cwe": null,
+    "dr_instructions": 61019,
+    "events_total": 19
+  },
+  {
+    "bug_id": "CWE121_CWE121_Stack_Based_Buffer_Overflow__CWE806_wchar_t_alloca_ncpy_01",
+    "ground_truth": "CWE-121",
+    "asan_cwe": null,
+    "dr_instructions": 61019,
+    "events_total": 19
+  },
+  {
+    "bug_id": "CWE122_CWE122_Heap_Based_Buffer_Overflow__sizeof_double_01",
+    "ground_truth": "CWE-122",
+    "asan_cwe": null,
+    "dr_instructions": 61019,
+    "events_total": 19
+  },
+  {
+    "bug_id": "CWE122_CWE122_Heap_Based_Buffer_Overflow__sizeof_int64_t_01",
+    "ground_truth": "CWE-122",
+    "asan_cwe": null,
+    "dr_instructions": 61018,
+    "events_total": 19
+  },
+  {
+    "bug_id": "CWE122_CWE122_Heap_Based_Buffer_Overflow__wchar_t_type_overrun_memmove_01",
+    "ground_truth": "CWE-122",
+    "asan_cwe": null,
+    "dr_instructions": 61019,
+    "events_total": 19
+  },
+  {
+    "bug_id": "CWE122_CWE122_Heap_Based_Buffer_Overflow__sizeof_struct_01",
+    "ground_truth": "CWE-122",
+    "asan_cwe": null,
+    "dr_instructions": 61019,
+    "events_total": 19
+  },
+  {
+    "bug_id": "CWE122_CWE122_Heap_Based_Buffer_Overflow__wchar_t_type_overrun_memcpy_01",
+    "ground_truth": "CWE-122",
+    "asan_cwe": null,
+    "dr_instructions": 61019,
+    "events_total": 19
+  },
+  {
+    "bug_id": "CWE122_CWE122_Heap_Based_Buffer_Overflow__c_CWE193_char_ncpy_01",
+    "ground_truth": "CWE-122",
+    "asan_cwe": null,
+    "dr_instructions": 61019,
+    "events_total": 19
+  },
+  {
+    "bug_id": "CWE122_CWE122_Heap_Based_Buffer_Overflow__c_CWE805_char_memcpy_01",
+    "ground_truth": "CWE-122",
+    "asan_cwe": null,
+    "dr_instructions": 61019,
+    "events_total": 21
+  },
+  {
+    "bug_id": "CWE122_CWE122_Heap_Based_Buffer_Overflow__c_CWE193_char_memmove_01",
+    "ground_truth": "CWE-122",
+    "asan_cwe": null,
+    "dr_instructions": 61019,
+    "events_total": 19
+  },
+  {
+    "bug_id": "CWE122_CWE122_Heap_Based_Buffer_Overflow__c_CWE805_char_ncpy_01",
+    "ground_truth": "CWE-122",
+    "asan_cwe": null,
+    "dr_instructions": 61019,
+    "events_total": 19
+  },
+  {
+    "bug_id": "CWE122_CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_01",
+    "ground_truth": "CWE-122",
+    "asan_cwe": null,
+    "dr_instructions": 61019,
+    "events_total": 19
+  },
+  {
+    "bug_id": "CWE134_CWE134_Uncontrolled_Format_String__wchar_t_console_vfprintf_01",
+    "ground_truth": "CWE-134",
+    "asan_cwe": null,
+    "dr_instructions": 61037,
+    "events_total": 2
+  },
+  {
+    "bug_id": "CWE134_CWE134_Uncontrolled_Format_String__wchar_t_connect_socket_vprintf_01",
+    "ground_truth": "CWE-134",
+    "asan_cwe": null,
+    "dr_instructions": 61018,
+    "events_total": 21
+  },
+  {
+    "bug_id": "CWE134_CWE134_Uncontrolled_Format_String__wchar_t_console_printf_01",
+    "ground_truth": "CWE-134",
+    "asan_cwe": null,
+    "dr_instructions": 61019,
+    "events_total": 2
+  },
+  {
+    "bug_id": "CWE134_CWE134_Uncontrolled_Format_String__wchar_t_connect_socket_vfprintf_01",
+    "ground_truth": "CWE-134",
+    "asan_cwe": null,
+    "dr_instructions": 61019,
+    "events_total": 21
+  },
+  {
+    "bug_id": "CWE134_CWE134_Uncontrolled_Format_String__wchar_t_environment_fprintf_01",
+    "ground_truth": "CWE-134",
+    "asan_cwe": null,
+    "dr_instructions": 61019,
+    "events_total": 19
+  },
+  {
+    "bug_id": "CWE134_CWE134_Uncontrolled_Format_String__wchar_t_console_fprintf_01",
+    "ground_truth": "CWE-134",
+    "asan_cwe": null,
+    "dr_instructions": 61019,
+    "events_total": 4
+  },
+  {
+    "bug_id": "CWE134_CWE134_Uncontrolled_Format_String__wchar_t_environment_printf_01",
+    "ground_truth": "CWE-134",
+    "asan_cwe": null,
+    "dr_instructions": 61019,
+    "events_total": 19
+  },
+  {
+    "bug_id": "CWE134_CWE134_Uncontrolled_Format_String__wchar_t_console_snprintf_01",
+    "ground_truth": "CWE-134",
+    "asan_cwe": null,
+    "dr_instructions": 61019,
+    "events_total": 2
+  },
+  {
+    "bug_id": "CWE190_CWE190_Integer_Overflow__unsigned_int_fscanf_preinc_01",
+    "ground_truth": "CWE-190",
+    "asan_cwe": null,
+    "dr_instructions": 61019,
+    "events_total": 2
+  },
+  {
+    "bug_id": "CWE190_CWE190_Integer_Overflow__int_rand_preinc_01",
+    "ground_truth": "CWE-190",
+    "asan_cwe": null,
+    "dr_instructions": 61019,
+    "events_total": 19
+  },
+  {
+    "bug_id": "CWE190_CWE190_Integer_Overflow__char_rand_preinc_01",
+    "ground_truth": "CWE-190",
+    "asan_cwe": null,
+    "dr_instructions": 61018,
+    "events_total": 19
+  },
+  {
+    "bug_id": "CWE190_CWE190_Integer_Overflow__unsigned_int_max_preinc_01",
+    "ground_truth": "CWE-190",
+    "asan_cwe": null,
+    "dr_instructions": 61019,
+    "events_total": 19
+  },
+  {
+    "bug_id": "CWE190_CWE190_Integer_Overflow__int64_t_rand_preinc_01",
+    "ground_truth": "CWE-190",
+    "asan_cwe": null,
+    "dr_instructions": 61019,
+    "events_total": 19
+  },
+  {
+    "bug_id": "CWE190_CWE190_Integer_Overflow__int64_t_max_preinc_01",
+    "ground_truth": "CWE-190",
+    "asan_cwe": null,
+    "dr_instructions": 61019,
+    "events_total": 19
+  },
+  {
+    "bug_id": "CWE190_CWE190_Integer_Overflow__int_max_preinc_01",
+    "ground_truth": "CWE-190",
+    "asan_cwe": null,
+    "dr_instructions": 61019,
+    "events_total": 19
+  },
+  {
+    "bug_id": "CWE190_CWE190_Integer_Overflow__int64_t_fscanf_preinc_01",
+    "ground_truth": "CWE-190",
+    "asan_cwe": null,
+    "dr_instructions": 61019,
+    "events_total": 2
+  },
+  {
+    "bug_id": "CWE190_CWE190_Integer_Overflow__short_max_preinc_01",
+    "ground_truth": "CWE-190",
+    "asan_cwe": null,
+    "dr_instructions": 61019,
+    "events_total": 19
+  },
+  {
+    "bug_id": "CWE190_CWE190_Integer_Overflow__char_max_preinc_01",
+    "ground_truth": "CWE-190",
+    "asan_cwe": null,
+    "dr_instructions": 61019,
+    "events_total": 21
+  },
+  {
+    "bug_id": "CWE416_CWE416_Use_After_Free__return_freed_ptr_01",
+    "ground_truth": "CWE-416",
+    "asan_cwe": null,
+    "dr_instructions": 61019,
+    "events_total": 21
+  },
+  {
+    "bug_id": "CWE416_CWE416_Use_After_Free__malloc_free_char_01",
+    "ground_truth": "CWE-416",
+    "asan_cwe": null,
+    "dr_instructions": 61018,
+    "events_total": 19
+  },
+  {
+    "bug_id": "CWE416_CWE416_Use_After_Free__malloc_free_int64_t_01",
+    "ground_truth": "CWE-416",
+    "asan_cwe": null,
+    "dr_instructions": 61018,
+    "events_total": 19
+  },
+  {
+    "bug_id": "CWE416_CWE416_Use_After_Free__malloc_free_int_01",
+    "ground_truth": "CWE-416",
+    "asan_cwe": null,
+    "dr_instructions": 61019,
+    "events_total": 19
+  },
+  {
+    "bug_id": "CWE416_CWE416_Use_After_Free__malloc_free_long_01",
+    "ground_truth": "CWE-416",
+    "asan_cwe": null,
+    "dr_instructions": 61019,
+    "events_total": 21
+  },
+  {
+    "bug_id": "CWE416_CWE416_Use_After_Free__malloc_free_wchar_t_01",
+    "ground_truth": "CWE-416",
+    "asan_cwe": null,
+    "dr_instructions": 61019,
+    "events_total": 19
+  },
+  {
+    "bug_id": "CWE416_CWE416_Use_After_Free__malloc_free_struct_01",
+    "ground_truth": "CWE-416",
+    "asan_cwe": null,
+    "dr_instructions": 61019,
+    "events_total": 19
+  },
+  {
+    "bug_id": "CWE476_CWE476_NULL_Pointer_Dereference__null_check_after_deref_01",
+    "ground_truth": "CWE-476",
+    "asan_cwe": null,
+    "dr_instructions": 61019,
+    "events_total": 19
+  },
+  {
+    "bug_id": "CWE476_CWE476_NULL_Pointer_Dereference__int64_t_01",
+    "ground_truth": "CWE-476",
+    "asan_cwe": null,
+    "dr_instructions": 61019,
+    "events_total": 19
+  },
+  {
+    "bug_id": "CWE476_CWE476_NULL_Pointer_Dereference__char_01",
+    "ground_truth": "CWE-476",
+    "asan_cwe": null,
+    "dr_instructions": 61018,
+    "events_total": 19
+  },
+  {
+    "bug_id": "CWE476_CWE476_NULL_Pointer_Dereference__deref_after_check_01",
+    "ground_truth": "CWE-476",
+    "asan_cwe": null,
+    "dr_instructions": 61019,
+    "events_total": 21
+  },
+  {
+    "bug_id": "CWE476_CWE476_NULL_Pointer_Dereference__struct_01",
+    "ground_truth": "CWE-476",
+    "asan_cwe": null,
+    "dr_instructions": 61018,
+    "events_total": 19
+  },
+  {
+    "bug_id": "CWE476_CWE476_NULL_Pointer_Dereference__long_01",
+    "ground_truth": "CWE-476",
+    "asan_cwe": null,
+    "dr_instructions": 61019,
+    "events_total": 19
+  },
+  {
+    "bug_id": "CWE476_CWE476_NULL_Pointer_Dereference__wchar_t_01",
+    "ground_truth": "CWE-476",
+    "asan_cwe": null,
+    "dr_instructions": 61019,
+    "events_total": 19
+  },
+  {
+    "bug_id": "CWE476_CWE476_NULL_Pointer_Dereference__binary_if_01",
+    "ground_truth": "CWE-476",
+    "asan_cwe": null,
+    "dr_instructions": 61018,
+    "events_total": 19
+  },
+  {
+    "bug_id": "CWE476_CWE476_NULL_Pointer_Dereference__int_01",
+    "ground_truth": "CWE-476",
+    "asan_cwe": null,
+    "dr_instructions": 61019,
+    "events_total": 19
+  },
+  {
+    "bug_id": "CWE78_CWE78_OS_Command_Injection__wchar_t_environment_popen_01",
+    "ground_truth": "CWE-78",
+    "asan_cwe": null,
+    "dr_instructions": 61019,
+    "events_total": 27
+  },
+  {
+    "bug_id": "CWE78_CWE78_OS_Command_Injection__wchar_t_file_system_01",
+    "ground_truth": "CWE-78",
+    "asan_cwe": null,
+    "dr_instructions": 61019,
+    "events_total": 20
+  },
+  {
+    "bug_id": "CWE78_CWE78_OS_Command_Injection__wchar_t_file_popen_01",
+    "ground_truth": "CWE-78",
+    "asan_cwe": null,
+    "dr_instructions": 61019,
+    "events_total": 26
+  },
+  {
+    "bug_id": "CWE78_CWE78_OS_Command_Injection__wchar_t_environment_system_01",
+    "ground_truth": "CWE-78",
+    "asan_cwe": null,
+    "dr_instructions": 61019,
+    "events_total": 20
+  }
+]

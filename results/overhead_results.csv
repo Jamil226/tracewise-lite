@@ -1,0 +1,6 @@
+stage1_instrumentation_ms,stage2_filtering_ms,stage3_hbpg_ms,stage4_compression_ms,stage5_llm_ms,pipeline_total_ms,native_exec_ms,overhead_factor,raw_events,filtered_events,hbpg_nodes,hbpg_edges,compressed_tokens,compression_ratio_pct,cwe_detected,vuln_type,repeats
+1.46,0.28,0.23,0.93,44035.92,44038.82,2.1,20970.86,23,6,6,10.8,445.2,-1835.65,CWE-119,buffer_overflow,5
+0.07,0.21,0.22,0.36,53429.3,53430.16,1.8,29683.44,18,8,8,13,556,-2988.89,CWE-416,use_after_free,5
+0.07,0.2,0.15,0.27,38036.9,38037.6,1.4,27169.68,13,4,4,7,301,-2215.38,CWE-134,format_string,5
+0.09,0.22,0.2,0.23,43490.35,43491.1,1.9,22890.06,10,6,6,9,303.2,-2932.0,CWE-119,integer_overflow,5
+0.07,0.21,0.15,0.2,35634.6,35635.24,2.3,15493.58,6,3,3,3.2,204,-3300.0,CWE-259,command_injection,5

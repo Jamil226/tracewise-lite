@@ -1,0 +1,52 @@
+[
+  {
+    "Vulnerability": "Stack Buffer Overflow",
+    "Ground Truth": "CWE-121",
+    "Raw Events": 50675,
+    "Filtered": 3,
+    "Compressed Tokens": 132,
+    "CWE Detected": "CWE-121",
+    "Match": "\u2705",
+    "Latency": "20.6s"
+  },
+  {
+    "Vulnerability": "Heap Buffer Overflow",
+    "Ground Truth": "CWE-122",
+    "Raw Events": 52126,
+    "Filtered": 3,
+    "Compressed Tokens": 92,
+    "CWE Detected": "CWE-122",
+    "Match": "\u2705",
+    "Latency": "15.4s"
+  },
+  {
+    "Vulnerability": "Use After Free",
+    "Ground Truth": "CWE-416",
+    "Raw Events": 52076,
+    "Filtered": 3,
+    "Compressed Tokens": 92,
+    "CWE Detected": "416",
+    "Match": "\u274c",
+    "Latency": "15.0s"
+  },
+  {
+    "Vulnerability": "Format String",
+    "Ground Truth": "CWE-134",
+    "Raw Events": 50305,
+    "Filtered": 3,
+    "Compressed Tokens": 134,
+    "CWE Detected": "CWE-134",
+    "Match": "\u2705",
+    "Latency": "16.6s"
+  },
+  {
+    "Vulnerability": "Integer Overflow",
+    "Ground Truth": "CWE-190",
+    "Raw Events": 51324,
+    "Filtered": 3,
+    "Compressed Tokens": 135,
+    "CWE Detected": "190",
+    "Match": "\u274c",
+    "Latency": "21.0s"
+  }
+]

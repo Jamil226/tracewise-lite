@@ -1,0 +1,168 @@
+{
+  "bug_id": "CWE121_CWE121_Stack_Based_Buffer_Overflow__CWE806_wchar_t_declare_ncpy_01",
+  "binary": "/home/zeeshan/tracewise_cvs/juliet_built/CWE121_CWE121_Stack_Based_Buffer_Overflow__CWE806_wchar_t_declare_ncpy_01",
+  "binary_args": [
+    "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+  ],
+  "source": "drcachesim+strace+asan",
+  "dr_instructions": 61019,
+  "real_syscalls": 18,
+  "events_total": 19,
+  "asan_cwe": null,
+  "asan_crashed": false,
+  "events": [
+    {
+      "event_type": "function_call",
+      "func_name": "_end",
+      "is_taint_source": false,
+      "cwe_hint": null,
+      "memory_address": 17684,
+      "memory_size": 61015,
+      "timestamp": 0
+    },
+    {
+      "event_type": "syscall",
+      "syscall_name": "execve",
+      "syscall_number": 59,
+      "retval": 0,
+      "is_taint_source": false,
+      "timestamp": 1
+    },
+    {
+      "event_type": "syscall",
+      "syscall_name": "brk",
+      "syscall_number": 12,
+      "retval": 0,
+      "is_taint_source": false,
+      "timestamp": 2
+    },
+    {
+      "event_type": "syscall",
+      "syscall_name": "mmap",
+      "syscall_number": 9,
+      "retval": 0,
+      "is_taint_source": false,
+      "timestamp": 3
+    },
+    {
+      "event_type": "syscall",
+      "syscall_name": "openat",
+      "syscall_number": 257,
+      "retval": 3,
+      "is_taint_source": false,
+      "timestamp": 4
+    },
+    {
+      "event_type": "syscall",
+      "syscall_name": "mmap",
+      "syscall_number": 9,
+      "retval": 0,
+      "is_taint_source": false,
+      "timestamp": 5
+    },
+    {
+      "event_type": "syscall",
+      "syscall_name": "close",
+      "syscall_number": 3,
+      "retval": 0,
+      "is_taint_source": false,
+      "timestamp": 6
+    },
+    {
+      "event_type": "syscall",
+      "syscall_name": "openat",
+      "syscall_number": 257,
+      "retval": 3,
+      "is_taint_source": false,
+      "timestamp": 7
+    },
+    {
+      "event_type": "syscall",
+      "syscall_name": "read",
+      "syscall_number": 0,
+      "retval": 832,
+      "is_taint_source": true,
+      "timestamp": 8
+    },
+    {
+      "event_type": "syscall",
+      "syscall_name": "mmap",
+      "syscall_number": 9,
+      "retval": 0,
+      "is_taint_source": false,
+      "timestamp": 9
+    },
+    {
+      "event_type": "syscall",
+      "syscall_name": "mmap",
+      "syscall_number": 9,
+      "retval": 0,
+      "is_taint_source": false,
+      "timestamp": 10
+    },
+    {
+      "event_type": "syscall",
+      "syscall_name": "mmap",
+      "syscall_number": 9,
+      "retval": 0,
+      "is_taint_source": false,
+      "timestamp": 11
+    },
+    {
+      "event_type": "syscall",
+      "syscall_name": "mmap",
+      "syscall_number": 9,
+      "retval": 0,
+      "is_taint_source": false,
+      "timestamp": 12
+    },
+    {
+      "event_type": "syscall",
+      "syscall_name": "mmap",
+      "syscall_number": 9,
+      "retval": 0,
+      "is_taint_source": false,
+      "timestamp": 13
+    },
+    {
+      "event_type": "syscall",
+      "syscall_name": "close",
+      "syscall_number": 3,
+      "retval": 0,
+      "is_taint_source": false,
+      "timestamp": 14
+    },
+    {
+      "event_type": "syscall",
+      "syscall_name": "mmap",
+      "syscall_number": 9,
+      "retval": 0,
+      "is_taint_source": false,
+      "timestamp": 15
+    },
+    {
+      "event_type": "syscall",
+      "syscall_name": "brk",
+      "syscall_number": 12,
+      "retval": 0,
+      "is_taint_source": false,
+      "timestamp": 16
+    },
+    {
+      "event_type": "syscall",
+      "syscall_name": "brk",
+      "syscall_number": 12,
+      "retval": 0,
+      "is_taint_source": false,
+      "timestamp": 17
+    },
+    {
+      "event_type": "syscall",
+      "syscall_name": "write",
+      "syscall_number": 1,
+      "retval": 66,
+      "is_taint_source": false,
+      "timestamp": 18
+    }
+  ]
+}

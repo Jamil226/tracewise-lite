@@ -1,0 +1,167 @@
+{
+  "bug_id": "custom_cwe78_cmd_injection",
+  "binary": "/home/zeeshan/tracewise_cvs/binaries/vuln_cwe78",
+  "binary_args": [
+    "'; cat /etc/hostname; echo '"
+  ],
+  "source": "drcachesim+strace+asan",
+  "dr_instructions": 57374,
+  "real_syscalls": 16,
+  "events_total": 19,
+  "asan_cwe": null,
+  "asan_crashed": false,
+  "events": [
+    {
+      "event_type": "function_call",
+      "func_name": "system",
+      "is_taint_source": false,
+      "cwe_hint": "CWE-78",
+      "memory_address": 2147418112,
+      "memory_size": 200,
+      "timestamp": -1
+    },
+    {
+      "event_type": "function_call",
+      "func_name": "__libc_start_main",
+      "is_taint_source": true,
+      "cwe_hint": null,
+      "memory_address": 2147418112,
+      "memory_size": 200,
+      "timestamp": -1
+    },
+    {
+      "event_type": "memory",
+      "memory_address": 67700,
+      "memory_size": 57369,
+      "timestamp": 0
+    },
+    {
+      "event_type": "syscall",
+      "syscall_name": "execve",
+      "syscall_number": 59,
+      "retval": 0,
+      "is_taint_source": false,
+      "timestamp": 1
+    },
+    {
+      "event_type": "syscall",
+      "syscall_name": "brk",
+      "syscall_number": 12,
+      "retval": 0,
+      "is_taint_source": false,
+      "timestamp": 2
+    },
+    {
+      "event_type": "syscall",
+      "syscall_name": "mmap",
+      "syscall_number": 9,
+      "retval": 0,
+      "is_taint_source": false,
+      "timestamp": 3
+    },
+    {
+      "event_type": "syscall",
+      "syscall_name": "openat",
+      "syscall_number": 257,
+      "retval": 3,
+      "is_taint_source": false,
+      "timestamp": 4
+    },
+    {
+      "event_type": "syscall",
+      "syscall_name": "mmap",
+      "syscall_number": 9,
+      "retval": 0,
+      "is_taint_source": false,
+      "timestamp": 5
+    },
+    {
+      "event_type": "syscall",
+      "syscall_name": "close",
+      "syscall_number": 3,
+      "retval": 0,
+      "is_taint_source": false,
+      "timestamp": 6
+    },
+    {
+      "event_type": "syscall",
+      "syscall_name": "openat",
+      "syscall_number": 257,
+      "retval": 3,
+      "is_taint_source": false,
+      "timestamp": 7
+    },
+    {
+      "event_type": "syscall",
+      "syscall_name": "read",
+      "syscall_number": 0,
+      "retval": 832,
+      "is_taint_source": true,
+      "timestamp": 8
+    },
+    {
+      "event_type": "syscall",
+      "syscall_name": "mmap",
+      "syscall_number": 9,
+      "retval": 0,
+      "is_taint_source": false,
+      "timestamp": 9
+    },
+    {
+      "event_type": "syscall",
+      "syscall_name": "mmap",
+      "syscall_number": 9,
+      "retval": 0,
+      "is_taint_source": false,
+      "timestamp": 10
+    },
+    {
+      "event_type": "syscall",
+      "syscall_name": "mmap",
+      "syscall_number": 9,
+      "retval": 0,
+      "is_taint_source": false,
+      "timestamp": 11
+    },
+    {
+      "event_type": "syscall",
+      "syscall_name": "mmap",
+      "syscall_number": 9,
+      "retval": 0,
+      "is_taint_source": false,
+      "timestamp": 12
+    },
+    {
+      "event_type": "syscall",
+      "syscall_name": "mmap",
+      "syscall_number": 9,
+      "retval": 0,
+      "is_taint_source": false,
+      "timestamp": 13
+    },
+    {
+      "event_type": "syscall",
+      "syscall_name": "close",
+      "syscall_number": 3,
+      "retval": 0,
+      "is_taint_source": false,
+      "timestamp": 14
+    },
+    {
+      "event_type": "syscall",
+      "syscall_name": "mmap",
+      "syscall_number": 9,
+      "retval": 0,
+      "is_taint_source": false,
+      "timestamp": 15
+    },
+    {
+      "event_type": "syscall",
+      "syscall_name": "mmap",
+      "syscall_number": 9,
+      "retval": 0,
+      "is_taint_source": false,
+      "timestamp": 16
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "total_cases": 36,
+  "cwe_top1_accuracy": 0.6666666666666666,
+  "detection_rate": 1.0,
+  "avg_confidence": 0.9,
+  "avg_analysis_time": 0.0030357374085320365,
+  "by_cwe": {
+    "CWE-121": {
+      "accuracy": 1.0,
+      "detection_rate": 1.0,
+      "count": 6
+    },
+    "CWE-122": {
+      "accuracy": 0.0,
+      "detection_rate": 1.0,
+      "count": 6
+    },
+    "CWE-415": {
+      "accuracy": 0.0,
+      "detection_rate": 1.0,
+      "count": 6
+    },
+    "CWE-416": {
+      "accuracy": 1.0,
+      "detection_rate": 1.0,
+      "count": 6
+    },
+    "CWE-134": {
+      "accuracy": 1.0,
+      "detection_rate": 1.0,
+      "count": 6
+    },
+    "CWE-190": {
+      "accuracy": 1.0,
+      "detection_rate": 1.0,
+      "count": 6
+    }
+  }
+}

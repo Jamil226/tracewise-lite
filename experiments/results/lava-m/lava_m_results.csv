@@ -1,0 +1,9 @@
+program,bug_id,bug_type_ground_truth,cwe_ground_truth,detected,cwe_predicted,vuln_class_predicted,confidence,trigger_input_size,analysis_time,error
+base64,T1,buffer_overflow,CWE-121,True,CWE-121,buffer_overflow,0.9,100,0.0034286975860595703,
+base64,T2,buffer_overflow,CWE-121,True,CWE-121,buffer_overflow,0.9,100,0.003081083297729492,
+md5sum,T1,buffer_overflow,CWE-121,True,CWE-121,buffer_overflow,0.9,100,0.0029878616333007812,
+md5sum,T2,buffer_overflow,CWE-121,True,CWE-121,buffer_overflow,0.9,100,0.0029816627502441406,
+uniq,T1,buffer_overflow,CWE-121,True,CWE-121,buffer_overflow,0.9,100,0.0033016204833984375,
+uniq,T2,use_after_free,CWE-416,True,CWE-416,use_after_free,0.9,100,0.0035042762756347656,
+who,T1,buffer_overflow,CWE-121,True,CWE-121,buffer_overflow,0.9,100,0.002902507781982422,
+who,T2,format_string,CWE-134,True,CWE-134,format_string,0.9,100,0.002736806869506836,

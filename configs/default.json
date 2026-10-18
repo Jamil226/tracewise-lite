@@ -1,0 +1,56 @@
+{
+  "project_name": "tracewise-lite",
+  "workspace_dir": "./workspace",
+  "log_level": "INFO",
+  "max_workers": 4,
+  "fuzzing": {
+    "afl_path": "afl-fuzz",
+    "timeout": 300,
+    "memory_limit": "none",
+    "dict_file": null,
+    "seeds_dir": "./workspace/seeds",
+    "output_dir": "./workspace/fuzzing_out",
+    "target_args": "",
+    "fork_mode": true
+  },
+  "instrumentation": {
+    "drrun_path": "drrun",
+    "client_path": "./build/libtracewise_client.so",
+    "trace_dir": "./workspace/traces",
+    "trace_memory": true,
+    "trace_calls": true,
+    "trace_syscalls": true,
+    "max_trace_size": 104857600
+  },
+  "provenance": {
+    "vuln_keywords": [
+      "malloc", "free", "memcpy", "strcpy", "strncpy",
+      "sprintf", "scanf", "gets", "read", "recv",
+      "alloca", "realloc", "memmove", "strcat", "strncat"
+    ],
+    "max_events": 100000,
+    "taint_sources": ["read", "recv", "fread", "scanf", "getc", "fgets"],
+    "sink_functions": [
+      "memcpy", "strcpy", "strncpy", "sprintf", "system",
+      "exec", "malloc", "free", "realloc"
+    ],
+    "memory_threshold": 52428800
+  },
+  "compression": {
+    "compression_ratio": 0.1,
+    "preserve_taint_paths": true,
+    "preserve_crash_context": true,
+    "cluster_similar_events": true,
+    "abstraction_level": "function",
+    "min_path_length": 3
+  },
+  "llm": {
+    "model_name": "tinyllama",
+    "ollama_host": "http://localhost:11434",
+    "temperature": 0.3,
+    "max_tokens": 2048,
+    "timeout": 120,
+    "context_window": 4096,
+    "prompt_template": "default"
+  }
+}

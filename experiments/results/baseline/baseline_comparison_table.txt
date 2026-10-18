@@ -1,0 +1,18 @@
+====================================================================================================
+BASELINE COMPARISON: TRACEWISE-Lite vs. Alternative Approaches
+====================================================================================================
+
+Method                 Nodes    Edges    Tokens     Time(ms)   Sem.Score  CWE          Conf     LLM(ms)   
+----------------------------------------------------------------------------------------------------
+RAW                    16       15       3          0.0        0.000      N/A          0.300    0.0       
+NO_COMPRESSION         6        5        582        0.3        1.000      N/A          0.300    1.2       
+NAIVE_REDUCTION        1        0        150        0.3        0.070      N/A          0.300    0.9       
+HEURISTIC              6        0        60         0.1        0.500      N/A          0.400    0.0       
+TRACEWISE-Lite         3        2        362        0.4        0.562      N/A          0.300    1.4       
+----------------------------------------------------------------------------------------------------
+Nodes/Edges/Tokens: Graph size metrics (lower is better for efficiency)
+Time(ms): Processing time (lower is better)
+Sem.Score: Semantic preservation score (higher is better)
+CWE: CWE prediction accuracy
+Conf: Confidence score
+LLM(ms): LLM inference latency

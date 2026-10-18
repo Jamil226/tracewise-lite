@@ -1,0 +1,30 @@
+{
+  "experiment_version": "1.0.0",
+  "timestamp": "2026-05-27T07:59:15.189206",
+  "timing": {
+    "semantic_preservation": 0.04817318916320801,
+    "benchmarks": 0.2546236515045166,
+    "llm_validation": 0.05015897750854492,
+    "baseline": 0.030503273010253906,
+    "performance": 0.10624408721923828,
+    "ablation": 0.004657268524169922
+  },
+  "total_time": 0.49436044692993164,
+  "results_summary": {
+    "semantic_preservation_runs": 20,
+    "juliet_cases": 36,
+    "lava_m_bugs": 8,
+    "llm_models_tested": [
+      "tinyllama",
+      "phi",
+      "deepseek-coder",
+      "qwen2.5-coder"
+    ],
+    "ablation_configs": 5
+  },
+  "key_findings": [
+    "Average semantic preservation score: 0.562",
+    "Crash node preserved in 20/20 cases (100%)",
+    "TRACEWISE-Lite outperforms naive truncation by 2.2x in semantic preservation"
+  ]
+}

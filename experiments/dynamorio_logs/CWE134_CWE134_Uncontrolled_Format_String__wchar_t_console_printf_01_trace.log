@@ -1,0 +1,31 @@
+{
+  "bug_id": "CWE134_CWE134_Uncontrolled_Format_String__wchar_t_console_printf_01",
+  "binary": "/home/zeeshan/tracewise_cvs/juliet_built/CWE134_CWE134_Uncontrolled_Format_String__wchar_t_console_printf_01",
+  "binary_args": [
+    "%s%s%s%s%s%s"
+  ],
+  "source": "drcachesim+strace+asan",
+  "dr_instructions": 61019,
+  "real_syscalls": 0,
+  "events_total": 2,
+  "asan_cwe": null,
+  "asan_crashed": false,
+  "events": [
+    {
+      "event_type": "function_call",
+      "func_name": "_end",
+      "is_taint_source": false,
+      "cwe_hint": null,
+      "memory_address": 18185,
+      "memory_size": 61014,
+      "timestamp": 0
+    },
+    {
+      "event_type": "crash",
+      "crash_type": "crash",
+      "cwe_hint": null,
+      "returncode": -1,
+      "timestamp": 1
+    }
+  ]
+}

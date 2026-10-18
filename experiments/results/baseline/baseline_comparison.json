@@ -1,0 +1,272 @@
+{
+  "RAW": [
+    {
+      "method_name": "RAW",
+      "num_nodes": 23,
+      "num_edges": 22,
+      "estimated_tokens": 3,
+      "processing_time_ms": 0.011682510375976562,
+      "memory_mb": 0.0,
+      "semantic_score": 0.0,
+      "cwe_predicted": "",
+      "vuln_class": "format_string",
+      "confidence": 0.3,
+      "llm_latency_ms": 0
+    },
+    {
+      "method_name": "RAW",
+      "num_nodes": 18,
+      "num_edges": 17,
+      "estimated_tokens": 3,
+      "processing_time_ms": 0.010728836059570312,
+      "memory_mb": 0.0,
+      "semantic_score": 0.0,
+      "cwe_predicted": "",
+      "vuln_class": "format_string",
+      "confidence": 0.3,
+      "llm_latency_ms": 0
+    },
+    {
+      "method_name": "RAW",
+      "num_nodes": 13,
+      "num_edges": 12,
+      "estimated_tokens": 3,
+      "processing_time_ms": 0.010728836059570312,
+      "memory_mb": 0.0,
+      "semantic_score": 0.0,
+      "cwe_predicted": "",
+      "vuln_class": "format_string",
+      "confidence": 0.3,
+      "llm_latency_ms": 0
+    },
+    {
+      "method_name": "RAW",
+      "num_nodes": 10,
+      "num_edges": 9,
+      "estimated_tokens": 3,
+      "processing_time_ms": 0.013589859008789062,
+      "memory_mb": 0.0,
+      "semantic_score": 0.0,
+      "cwe_predicted": "",
+      "vuln_class": "buffer_overflow",
+      "confidence": 0.3,
+      "llm_latency_ms": 0
+    }
+  ],
+  "NO_COMPRESSION": [
+    {
+      "method_name": "NO_COMPRESSION",
+      "num_nodes": 6,
+      "num_edges": 6,
+      "estimated_tokens": 648,
+      "processing_time_ms": 0.3058910369873047,
+      "memory_mb": 0.0,
+      "semantic_score": 1.0,
+      "cwe_predicted": "CWE-Unknown",
+      "vuln_class": "unknown",
+      "confidence": 0.3,
+      "llm_latency_ms": 1.1525154113769531
+    },
+    {
+      "method_name": "NO_COMPRESSION",
+      "num_nodes": 8,
+      "num_edges": 8,
+      "estimated_tokens": 820,
+      "processing_time_ms": 0.31757354736328125,
+      "memory_mb": 0.0,
+      "semantic_score": 1.0,
+      "cwe_predicted": "CWE-Unknown",
+      "vuln_class": "unknown",
+      "confidence": 0.3,
+      "llm_latency_ms": 1.4145374298095703
+    },
+    {
+      "method_name": "NO_COMPRESSION",
+      "num_nodes": 4,
+      "num_edges": 4,
+      "estimated_tokens": 445,
+      "processing_time_ms": 0.22530555725097656,
+      "memory_mb": 0.0,
+      "semantic_score": 1.0,
+      "cwe_predicted": "CWE-Unknown",
+      "vuln_class": "unknown",
+      "confidence": 0.3,
+      "llm_latency_ms": 1.0216236114501953
+    },
+    {
+      "method_name": "NO_COMPRESSION",
+      "num_nodes": 6,
+      "num_edges": 3,
+      "estimated_tokens": 413,
+      "processing_time_ms": 0.24557113647460938,
+      "memory_mb": 0.0,
+      "semantic_score": 1.0,
+      "cwe_predicted": "CWE-Unknown",
+      "vuln_class": "unknown",
+      "confidence": 0.3,
+      "llm_latency_ms": 1.146554946899414
+    }
+  ],
+  "NAIVE_REDUCTION": [
+    {
+      "method_name": "NAIVE_REDUCTION",
+      "num_nodes": 1,
+      "num_edges": 0,
+      "estimated_tokens": 130,
+      "processing_time_ms": 0.3027915954589844,
+      "memory_mb": 0.0,
+      "semantic_score": 0.0375,
+      "cwe_predicted": "CWE-Unknown",
+      "vuln_class": "unknown",
+      "confidence": 0.3,
+      "llm_latency_ms": 0.988006591796875
+    },
+    {
+      "method_name": "NAIVE_REDUCTION",
+      "num_nodes": 2,
+      "num_edges": 2,
+      "estimated_tokens": 223,
+      "processing_time_ms": 0.2963542938232422,
+      "memory_mb": 0.0,
+      "semantic_score": 0.0375,
+      "cwe_predicted": "CWE-Unknown",
+      "vuln_class": "unknown",
+      "confidence": 0.3,
+      "llm_latency_ms": 0.9641647338867188
+    },
+    {
+      "method_name": "NAIVE_REDUCTION",
+      "num_nodes": 1,
+      "num_edges": 0,
+      "estimated_tokens": 131,
+      "processing_time_ms": 0.21123886108398438,
+      "memory_mb": 0.0,
+      "semantic_score": 0.0375,
+      "cwe_predicted": "CWE-Unknown",
+      "vuln_class": "unknown",
+      "confidence": 0.3,
+      "llm_latency_ms": 0.919342041015625
+    },
+    {
+      "method_name": "NAIVE_REDUCTION",
+      "num_nodes": 1,
+      "num_edges": 0,
+      "estimated_tokens": 117,
+      "processing_time_ms": 0.29921531677246094,
+      "memory_mb": 0.0,
+      "semantic_score": 0.16811862178478973,
+      "cwe_predicted": "CWE-Unknown",
+      "vuln_class": "unknown",
+      "confidence": 0.3,
+      "llm_latency_ms": 0.9229183197021484
+    }
+  ],
+  "HEURISTIC": [
+    {
+      "method_name": "HEURISTIC",
+      "num_nodes": 6,
+      "num_edges": 0,
+      "estimated_tokens": 60,
+      "processing_time_ms": 0.1342296600341797,
+      "memory_mb": 0.0,
+      "semantic_score": 0.5,
+      "cwe_predicted": "",
+      "vuln_class": "buffer_overflow",
+      "confidence": 0.4,
+      "llm_latency_ms": 0
+    },
+    {
+      "method_name": "HEURISTIC",
+      "num_nodes": 8,
+      "num_edges": 0,
+      "estimated_tokens": 80,
+      "processing_time_ms": 0.1499652862548828,
+      "memory_mb": 0.0,
+      "semantic_score": 0.5,
+      "cwe_predicted": "",
+      "vuln_class": "use_after_free",
+      "confidence": 0.4,
+      "llm_latency_ms": 0
+    },
+    {
+      "method_name": "HEURISTIC",
+      "num_nodes": 4,
+      "num_edges": 0,
+      "estimated_tokens": 40,
+      "processing_time_ms": 0.12731552124023438,
+      "memory_mb": 0.0,
+      "semantic_score": 0.5,
+      "cwe_predicted": "",
+      "vuln_class": "buffer_overflow",
+      "confidence": 0.4,
+      "llm_latency_ms": 0
+    },
+    {
+      "method_name": "HEURISTIC",
+      "num_nodes": 6,
+      "num_edges": 0,
+      "estimated_tokens": 60,
+      "processing_time_ms": 0.13875961303710938,
+      "memory_mb": 0.0,
+      "semantic_score": 0.5,
+      "cwe_predicted": "",
+      "vuln_class": "buffer_overflow",
+      "confidence": 0.4,
+      "llm_latency_ms": 0
+    }
+  ],
+  "TRACEWISE-Lite": [
+    {
+      "method_name": "TRACEWISE-Lite",
+      "num_nodes": 3,
+      "num_edges": 2,
+      "estimated_tokens": 420,
+      "processing_time_ms": 0.4951953887939453,
+      "memory_mb": 0.0,
+      "semantic_score": 0.57,
+      "cwe_predicted": "CWE-Unknown",
+      "vuln_class": "unknown",
+      "confidence": 0.3,
+      "llm_latency_ms": 1.45721435546875
+    },
+    {
+      "method_name": "TRACEWISE-Lite",
+      "num_nodes": 4,
+      "num_edges": 3,
+      "estimated_tokens": 524,
+      "processing_time_ms": 0.4875659942626953,
+      "memory_mb": 0.0,
+      "semantic_score": 0.555,
+      "cwe_predicted": "CWE-Unknown",
+      "vuln_class": "unknown",
+      "confidence": 0.3,
+      "llm_latency_ms": 1.142740249633789
+    },
+    {
+      "method_name": "TRACEWISE-Lite",
+      "num_nodes": 2,
+      "num_edges": 1,
+      "estimated_tokens": 299,
+      "processing_time_ms": 0.3814697265625,
+      "memory_mb": 0.0,
+      "semantic_score": 0.57,
+      "cwe_predicted": "CWE-Unknown",
+      "vuln_class": "unknown",
+      "confidence": 0.3,
+      "llm_latency_ms": 1.7576217651367188
+    },
+    {
+      "method_name": "TRACEWISE-Lite",
+      "num_nodes": 2,
+      "num_edges": 1,
+      "estimated_tokens": 205,
+      "processing_time_ms": 0.3247261047363281,
+      "memory_mb": 0.0,
+      "semantic_score": 0.555,
+      "cwe_predicted": "CWE-Unknown",
+      "vuln_class": "unknown",
+      "confidence": 0.3,
+      "llm_latency_ms": 1.2526512145996094
+    }
+  ]
+}

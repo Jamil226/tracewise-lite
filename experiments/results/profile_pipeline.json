@@ -1,0 +1,31 @@
+{
+  "total_time_ms": 27.31919288635254,
+  "total_peak_ram_mb": 33.19921875,
+  "stages": [
+    {
+      "stage_name": "full_pipeline",
+      "start_time": 1779850751.0255835,
+      "end_time": 1779850751.0529027,
+      "peak_ram_mb": 33.19921875,
+      "avg_ram_mb": 32.36328125,
+      "ram_samples": [
+        31.52734375,
+        33.19921875
+      ],
+      "cpu_samples": [],
+      "events_processed": 0,
+      "nodes_processed": 0,
+      "output_size_bytes": 0,
+      "duration_ms": 27.31919288635254,
+      "throughput_events_per_sec": 0.0
+    }
+  ],
+  "stage_summary": {
+    "full_pipeline": {
+      "duration_ms": 27.31919288635254,
+      "peak_ram_mb": 33.19921875,
+      "events_per_sec": 0.0,
+      "pct_of_total": 100.0
+    }
+  }
+}

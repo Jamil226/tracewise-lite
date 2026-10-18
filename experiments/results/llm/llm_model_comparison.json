@@ -1,0 +1,62 @@
+{
+  "tinyllama": {
+    "cwe_top1_accuracy": 0.1,
+    "class_accuracy": 0.1,
+    "hallucination_rate": 0.0,
+    "avg_root_cause_score": 0.0,
+    "avg_exploitability_score": 0.0,
+    "avg_latency_ms": 0.9737491607666016,
+    "avg_consistency": 1.0,
+    "model_info": {
+      "name": "tinyllama",
+      "size": "1.1B",
+      "context": 2048,
+      "description": "Lightweight, fast inference"
+    }
+  },
+  "phi": {
+    "cwe_top1_accuracy": 0.1,
+    "class_accuracy": 0.1,
+    "hallucination_rate": 0.0,
+    "avg_root_cause_score": 0.0,
+    "avg_exploitability_score": 0.0,
+    "avg_latency_ms": 0.8992195129394531,
+    "avg_consistency": 1.0,
+    "model_info": {
+      "name": "phi",
+      "size": "2.7B",
+      "context": 2048,
+      "description": "Microsoft Phi-2, good reasoning"
+    }
+  },
+  "deepseek-coder": {
+    "cwe_top1_accuracy": 0.1,
+    "class_accuracy": 0.1,
+    "hallucination_rate": 0.0,
+    "avg_root_cause_score": 0.0,
+    "avg_exploitability_score": 0.0,
+    "avg_latency_ms": 0.9077548980712891,
+    "avg_consistency": 1.0,
+    "model_info": {
+      "name": "deepseek-coder:1.3b",
+      "size": "1.3B",
+      "context": 4096,
+      "description": "Code-focused, good for security"
+    }
+  },
+  "qwen2.5-coder": {
+    "cwe_top1_accuracy": 0.1,
+    "class_accuracy": 0.1,
+    "hallucination_rate": 0.0,
+    "avg_root_cause_score": 0.0,
+    "avg_exploitability_score": 0.0,
+    "avg_latency_ms": 0.9659290313720703,
+    "avg_consistency": 1.0,
+    "model_info": {
+      "name": "qwen2.5-coder:1.5b",
+      "size": "1.5B",
+      "context": 4096,
+      "description": "Alibaba Qwen, strong code reasoning"
+    }
+  }
+}

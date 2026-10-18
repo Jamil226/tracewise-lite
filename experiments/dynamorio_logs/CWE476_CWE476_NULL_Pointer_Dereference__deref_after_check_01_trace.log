@@ -1,0 +1,182 @@
+{
+  "bug_id": "CWE476_CWE476_NULL_Pointer_Dereference__deref_after_check_01",
+  "binary": "/home/zeeshan/tracewise_cvs/juliet_built/CWE476_CWE476_NULL_Pointer_Dereference__deref_after_check_01",
+  "binary_args": [
+    ""
+  ],
+  "source": "drcachesim+strace+asan",
+  "dr_instructions": 61019,
+  "real_syscalls": 17,
+  "events_total": 21,
+  "asan_cwe": null,
+  "asan_crashed": false,
+  "events": [
+    {
+      "event_type": "function_call",
+      "func_name": "_end",
+      "is_taint_source": false,
+      "cwe_hint": null,
+      "memory_address": 20560,
+      "memory_size": 3971,
+      "timestamp": 0
+    },
+    {
+      "event_type": "memory",
+      "memory_address": 3,
+      "memory_size": 1,
+      "timestamp": 1
+    },
+    {
+      "event_type": "function_call",
+      "func_name": "_end",
+      "is_taint_source": false,
+      "cwe_hint": null,
+      "memory_address": 20560,
+      "memory_size": 57043,
+      "timestamp": 2
+    },
+    {
+      "event_type": "syscall",
+      "syscall_name": "execve",
+      "syscall_number": 59,
+      "retval": 0,
+      "is_taint_source": false,
+      "timestamp": 3
+    },
+    {
+      "event_type": "syscall",
+      "syscall_name": "brk",
+      "syscall_number": 12,
+      "retval": 0,
+      "is_taint_source": false,
+      "timestamp": 4
+    },
+    {
+      "event_type": "syscall",
+      "syscall_name": "mmap",
+      "syscall_number": 9,
+      "retval": 0,
+      "is_taint_source": false,
+      "timestamp": 5
+    },
+    {
+      "event_type": "syscall",
+      "syscall_name": "openat",
+      "syscall_number": 257,
+      "retval": 3,
+      "is_taint_source": false,
+      "timestamp": 6
+    },
+    {
+      "event_type": "syscall",
+      "syscall_name": "mmap",
+      "syscall_number": 9,
+      "retval": 0,
+      "is_taint_source": false,
+      "timestamp": 7
+    },
+    {
+      "event_type": "syscall",
+      "syscall_name": "close",
+      "syscall_number": 3,
+      "retval": 0,
+      "is_taint_source": false,
+      "timestamp": 8
+    },
+    {
+      "event_type": "syscall",
+      "syscall_name": "openat",
+      "syscall_number": 257,
+      "retval": 3,
+      "is_taint_source": false,
+      "timestamp": 9
+    },
+    {
+      "event_type": "syscall",
+      "syscall_name": "read",
+      "syscall_number": 0,
+      "retval": 832,
+      "is_taint_source": true,
+      "timestamp": 10
+    },
+    {
+      "event_type": "syscall",
+      "syscall_name": "mmap",
+      "syscall_number": 9,
+      "retval": 0,
+      "is_taint_source": false,
+      "timestamp": 11
+    },
+    {
+      "event_type": "syscall",
+      "syscall_name": "mmap",
+      "syscall_number": 9,
+      "retval": 0,
+      "is_taint_source": false,
+      "timestamp": 12
+    },
+    {
+      "event_type": "syscall",
+      "syscall_name": "mmap",
+      "syscall_number": 9,
+      "retval": 0,
+      "is_taint_source": false,
+      "timestamp": 13
+    },
+    {
+      "event_type": "syscall",
+      "syscall_name": "mmap",
+      "syscall_number": 9,
+      "retval": 0,
+      "is_taint_source": false,
+      "timestamp": 14
+    },
+    {
+      "event_type": "syscall",
+      "syscall_name": "mmap",
+      "syscall_number": 9,
+      "retval": 0,
+      "is_taint_source": false,
+      "timestamp": 15
+    },
+    {
+      "event_type": "syscall",
+      "syscall_name": "close",
+      "syscall_number": 3,
+      "retval": 0,
+      "is_taint_source": false,
+      "timestamp": 16
+    },
+    {
+      "event_type": "syscall",
+      "syscall_name": "mmap",
+      "syscall_number": 9,
+      "retval": 0,
+      "is_taint_source": false,
+      "timestamp": 17
+    },
+    {
+      "event_type": "syscall",
+      "syscall_name": "brk",
+      "syscall_number": 12,
+      "retval": 0,
+      "is_taint_source": false,
+      "timestamp": 18
+    },
+    {
+      "event_type": "syscall",
+      "syscall_name": "brk",
+      "syscall_number": 12,
+      "retval": 0,
+      "is_taint_source": false,
+      "timestamp": 19
+    },
+    {
+      "event_type": "crash",
+      "crash_type": "crash",
+      "cwe_hint": null,
+      "returncode": -1,
+      "timestamp": 20
+    }
+  ]
+}

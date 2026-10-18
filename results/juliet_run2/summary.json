@@ -1,0 +1,55 @@
+{
+  "total_binaries": 58,
+  "asan_accuracy": 0.0172,
+  "tracewise_accuracy": 0.0862,
+  "taint_chain_found_pct": 0.1552,
+  "mean_latency_s": 14.1,
+  "mean_compression_ratio": 0.8053,
+  "mean_true_compression": 0.9923,
+  "mean_nodes_before": 18,
+  "mean_nodes_after": 2,
+  "parse_failure_rate": 0.0,
+  "errors": 0,
+  "per_cwe": {
+    "CWE-121": {
+      "n": 10,
+      "tracewise_acc": 0.2,
+      "asan_acc": 0.1
+    },
+    "CWE-122": {
+      "n": 10,
+      "tracewise_acc": 0.0,
+      "asan_acc": 0.0
+    },
+    "CWE-134": {
+      "n": 8,
+      "tracewise_acc": 0.0,
+      "asan_acc": 0.0
+    },
+    "CWE-190": {
+      "n": 10,
+      "tracewise_acc": 0.0,
+      "asan_acc": 0.0
+    },
+    "CWE-416": {
+      "n": 7,
+      "tracewise_acc": 0.0,
+      "asan_acc": 0.0
+    },
+    "CWE-476": {
+      "n": 9,
+      "tracewise_acc": 0.333,
+      "asan_acc": 0.0
+    },
+    "CWE-78": {
+      "n": 4,
+      "tracewise_acc": 0.0,
+      "asan_acc": 0.0
+    }
+  },
+  "prediction_distribution": {
+    "CWE-476": 20,
+    "CWE-121": 7,
+    "CWE-190": 3
+  }
+}

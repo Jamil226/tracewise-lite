@@ -1,0 +1,69 @@
+{
+  "provenance": [
+    {
+      "input_size": 100,
+      "stage_name": "provenance_collection",
+      "duration_ms": 0.7703304290771484,
+      "peak_ram_mb": 33.203125,
+      "throughput": 0
+    },
+    {
+      "input_size": 500,
+      "stage_name": "provenance_collection",
+      "duration_ms": 1.8820762634277344,
+      "peak_ram_mb": 33.203125,
+      "throughput": 0
+    },
+    {
+      "input_size": 1000,
+      "stage_name": "provenance_collection",
+      "duration_ms": 3.36456298828125,
+      "peak_ram_mb": 33.203125,
+      "throughput": 0
+    },
+    {
+      "input_size": 5000,
+      "stage_name": "provenance_collection",
+      "duration_ms": 15.680074691772461,
+      "peak_ram_mb": 33.203125,
+      "throughput": 0
+    },
+    {
+      "input_size": 10000,
+      "stage_name": "provenance_collection",
+      "duration_ms": 31.22115135192871,
+      "peak_ram_mb": 33.203125,
+      "throughput": 0
+    }
+  ],
+  "compression": [
+    {
+      "input_size": 10,
+      "stage_name": "compression",
+      "duration_ms": 0.6339550018310547,
+      "peak_ram_mb": 33.203125,
+      "throughput": 0.0
+    },
+    {
+      "input_size": 20,
+      "stage_name": "compression",
+      "duration_ms": 0.5984306335449219,
+      "peak_ram_mb": 33.203125,
+      "throughput": 0.0
+    },
+    {
+      "input_size": 30,
+      "stage_name": "compression",
+      "duration_ms": 0.6315708160400391,
+      "peak_ram_mb": 33.203125,
+      "throughput": 0.0
+    },
+    {
+      "input_size": 50,
+      "stage_name": "compression",
+      "duration_ms": 0.5986690521240234,
+      "peak_ram_mb": 33.203125,
+      "throughput": 0.0
+    }
+  ]
+}

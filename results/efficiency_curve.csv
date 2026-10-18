@@ -1,0 +1,6 @@
+benchmark,raw_events,compressed_tokens,reduction_pct,cwe_correct,latency
+Stack Buffer Overflow,48879,136,99.72,False,30.4
+Heap Buffer Overflow,50336,95,99.81,False,20.6
+Use After Free,50283,94,99.81,True,17.1
+Format String,48512,136,99.72,True,21.8
+Integer Overflow,49534,137,99.72,False,23.9

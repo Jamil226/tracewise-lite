@@ -1,0 +1,91 @@
+{
+  "experiment": "asan_capability_comparison",
+  "gcc_available": true,
+  "llm_available": true,
+  "key_finding": "ASAN requires source code recompilation and cannot analyze pre-compiled stripped binaries. TRACEWISE-Lite works directly on DynamoRIO-instrumented binary execution traces without source.",
+  "capability_table": {
+    "Requires source code": {
+      "ASAN": true,
+      "TRACEWISE-Lite": false
+    },
+    "Requires recompilation": {
+      "ASAN": true,
+      "TRACEWISE-Lite": false
+    },
+    "Works on stripped binary": {
+      "ASAN": false,
+      "TRACEWISE-Lite": true
+    },
+    "Privacy-preserving local": {
+      "ASAN": true,
+      "TRACEWISE-Lite": true
+    },
+    "Provides CWE taxonomy": {
+      "ASAN": false,
+      "TRACEWISE-Lite": true
+    },
+    "Human-readable explanation": {
+      "ASAN": false,
+      "TRACEWISE-Lite": true
+    }
+  },
+  "rows": [
+    {
+      "target": "stack_overflow_CWE121",
+      "cwe_ground_truth": "CWE-121",
+      "description": "Stack Buffer Overflow via strcpy",
+      "asan_requires_source": true,
+      "asan_requires_recompile": true,
+      "asan_works_on_stripped": false,
+      "asan_available": true,
+      "asan_detected": "stack-buffer-overflow",
+      "asan_latency_ms": 677.2,
+      "tw_requires_source": false,
+      "tw_requires_recompile": false,
+      "tw_works_on_stripped": true,
+      "tw_cwe_detected": "CWE-119",
+      "tw_tokens": 423,
+      "tw_pipeline_ms": 13.0,
+      "tw_compression_pct": -1739.1,
+      "tw_raw_events": 23
+    },
+    {
+      "target": "heap_overflow_CWE122",
+      "cwe_ground_truth": "CWE-122",
+      "description": "Heap Buffer Overflow via malloc+memcpy",
+      "asan_requires_source": true,
+      "asan_requires_recompile": true,
+      "asan_works_on_stripped": false,
+      "asan_available": true,
+      "asan_detected": "heap-buffer-overflow",
+      "asan_latency_ms": 319.2,
+      "tw_requires_source": false,
+      "tw_requires_recompile": false,
+      "tw_works_on_stripped": true,
+      "tw_cwe_detected": "CWE-119",
+      "tw_tokens": 452,
+      "tw_pipeline_ms": 1.6,
+      "tw_compression_pct": -1865.2,
+      "tw_raw_events": 23
+    },
+    {
+      "target": "format_string_CWE134",
+      "cwe_ground_truth": "CWE-134",
+      "description": "Format String Vulnerability via printf",
+      "asan_requires_source": true,
+      "asan_requires_recompile": true,
+      "asan_works_on_stripped": false,
+      "asan_available": true,
+      "asan_detected": "ASAN-error-detected",
+      "asan_latency_ms": 241.2,
+      "tw_requires_source": false,
+      "tw_requires_recompile": false,
+      "tw_works_on_stripped": true,
+      "tw_cwe_detected": "CWE-134",
+      "tw_tokens": 302,
+      "tw_pipeline_ms": 1.3,
+      "tw_compression_pct": -2223.1,
+      "tw_raw_events": 13
+    }
+  ]
+}
